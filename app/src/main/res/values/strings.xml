@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherMark</string>
+    <string name="search">search</string>
+    <array name="genders">
+        <item>Select a Unit of Measure</item>
+        <item>Imperial</item>
+        <item>Metric</item>
+        <item>Standard</item>
+    </array>
+</resources>
