@@ -1,8 +1,5 @@
 package com.assignment.weathermark.repository
-import android.util.Log
-import com.assignment.marktalentweather.model.ResponseWeather
 import com.assignment.weathermark.api.ApiService
-import com.assignment.weathermark.model.Clouds
 import com.assignment.weathermark.model.ResponseWeather
 
 // makes calls to the data source
