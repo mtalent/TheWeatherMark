@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">WeatherMark</string>
     <string name="search">search</string>
-    <array name="genders">
+    <array name="units">
         <item>Select a Unit of Measure</item>
         <item>Imperial</item>
         <item>Metric</item>
