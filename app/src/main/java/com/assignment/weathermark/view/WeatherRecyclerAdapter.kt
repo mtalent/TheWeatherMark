@@ -7,9 +7,7 @@ import com.assignment.weathermark.R
 import com.assignment.weathermark.databinding.WeatherListItemBinding
 import com.assignment.weathermark.model.Weather
 
-// Unit -> void
-// Unit just returns the function call
-// Nothing != Unit
+
 class WeatherRecyclerAdapter(
     private val weatherList: MutableList<Weather> = mutableListOf(),
     private val openDetails: (Weather) -> Unit
@@ -37,13 +35,7 @@ class WeatherRecyclerAdapter(
 
             binding.root.setOnClickListener {
                 openDetails(weather)
-                // this ^ is calling this \/ from the UsersFragment
-//                    fun openDetails(randomUser: RandomUser) {
-//                        parentFragmentManager.beginTransaction()
-//                            .replace(R.id.fragment_container, DetailsFragment.newInstance(randomUser))
-//                            .addToBackStack(null)
-//                            .commit()
-//                    }
+
             }
         }
     }

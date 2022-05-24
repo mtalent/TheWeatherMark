@@ -1,5 +1,6 @@
 package com.assignment.weathermark.api
 
+import com.assignment.weathermark.model.RequestApi
 import com.assignment.weathermark.model.ResponseWeather
 import retrofit2.Response
 import retrofit2.Retrofit
